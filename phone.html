@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Smartphones - XXL Fourniture</title>
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .product-section {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
+
+    .product-column {
+      flex: 1;
+      min-width: 250px;
+      background-color: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-column h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .product-card {
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      padding: 10px;
+      background: #fff;
+      transition: transform 0.2s;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .price {
+      font-weight: bold;
+      color: green;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: purple;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+     header {
+      background: #2e1457;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+footer {
+    background: #2e1457;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 1rem;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    margin-bottom: 0.5rem;
+    color: #e74c3c;
+}
+
+.footer-section a {
+    color: white;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #e74c3c;
+}
+
+.payment-methods i {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+.copyright {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #bdc3c7;
+}
+  </style>
+</head>
+<body>
+      <header>
+    <h1>📱Smartphones_section.</h1>
+    <nav>
+      <a href="index55.html">🏠 Accueil</a>
+      <a href="indexese.html">Accessoires</a>
+      <a href="ordi.html">🖥️Ordinateur</a>
+      <a href="laptop.html">💻Laptop</a>
+      <a href="index5.html">🛒 panier(<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+<main>
+  <div class="product-section">
+    
+    <!-- iPhone -->
+    <div class="product-column">
+      <h3>iPhone</h3>
+      <div class="product-card">
+        <img src="image/download (10).jpeg" alt="iPhone 15 Pro">
+        <h4>iPhone 15 Pro</h4>
+        <p class="price">890 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('iPhone 15 Pro', 890)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/iPhone 15 celular Apple.jpeg" alt="iPhone 15 ">
+        <h4>iPhone 15 </h4>
+        <p class="price">700 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('iPhone 15', 700)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/iPhone 14 128GB Roxo_LACRAD0 - 1 ano de garantia Apple.jpeg" alt="iPhone 14 ">
+        <h4>iPhone 14</h4>
+        <p class="price">500 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('iPhone 14', 500)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/iPhone 16 Pro 256 GB Titanio Blanco Desbloqueado.jpeg" alt="iPhone 16 Pro">
+        <h4>iPhone 16 Pro</h4>
+        <p class="price">1000 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('iPhone 16 Pro', 1000)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/Iphone 16 Series.jpeg" alt="iPhone 16">
+        <h4>iPhone 16</h4>
+        <p class="price">900 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('iPhone 16', 900)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/iPhone 16 Pro 256 GB Titanio Blanco Desbloqueado.jpeg" alt="iPhone 16 Pro max">
+        <h4>iPhone 16 Pro max</h4>
+        <p class="price">1500 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('iPhone 16 Pro max', 1500)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/iphone 13 pro (500$).jpeg" alt="iPhone 13 Pro">
+        <h4>iPhone 13 Pro</h4>
+        <p class="price">600 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('iPhone 13 Pro', 600)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/download (7).jpeg" alt="iPhone 12 pro max">
+        <h4>iPhone 12 Pro max</h4>
+        <p class="price">640 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('iPhone 12 Pro max', 640)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/download (12).jpeg" alt="iPhone 11 ">
+        <h4>iPhone 11</h4>
+        <p class="price">320 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('iPhone 11', 320)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/iPhone 13 Branco_ Conheça o smartphone da Apple com design elegante e tecnologia avançada.jpeg" alt="iPhone 13">
+        <h4>iPhone 13 </h4>
+        <p class="price">400 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('iPhone 13', 400)">Acheter</a>
+      </div>
+      
+    </div>
+
+    <!-- Samsung -->
+    <div class="product-column">
+      <h3>Samsung</h3>
+      <div class="product-card">
+        <img src="image/Cellulari Offerte _ Guarda e Confronta i nostri Prezzi _ Tecnosell.jpeg" alt="Samsung Z Fold">
+        <h4>Samsung Z fold 6</h4>
+        <p class="price">1200 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Samsung z fold 6', 1200)">Acheter</a>
+      </div>
+       <div class="product-card ">
+        <img src="image/download (11).jpeg" alt="Samsung S22">
+        <h4>Samsung S22 </h4>
+        <p class="price">450 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Samsung S22 ', 450)">Acheter</a>
+      </div>
+      <div class="product-card ">
+        <img src="image/SAMSUNG Galaxy S23 Ultra.jpeg" alt="Samsung S23 Ultra">
+        <h4>Samsung S23 Ultra</h4>
+        <p class="price">1099 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Samsung S23 Ultra', 1099)">Acheter</a>
+      </div>
+      <div class="product-card ">
+        <img src="image/SAMSUNG Galaxy S24 Ultra Cell Phone, 256GB AI Smartphone, Unlocked Android, 200MP, 100x Zoom Cameras, Long Battery Life, S Pen, US Version, 2024, Titanium Black.jpeg" alt="Samsung S24 Ultra">
+        <h4>Samsung s24 Ultra</h4>
+        <p class="price">1500 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Samsung S24 Ultra', 1500)">Acheter</a>
+      </div>
+      <div class="product-card ">
+        <img src="image/Samsung S25 Ultra.jpeg" alt="Samsung S25 Ultra">
+        <h4>Samsung s25 Ultra</h4>
+        <p class="price">1400 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Samsung S25 Ultra', 1400)">Acheter</a>
+      </div>
+      <div class="product-card ">
+        <img src="image/Samsung Galaxy S25 Edge, with its launch just a few weeks away, has obtained FCC certification__🖥️QHD+ 120hz Dynamic Amoled Display _💪SD 8 Elite for Galaxy _💾12GB RAM _ 256_512GB Storage _📸200MP Main Camera.jpeg" alt="Samsung S25 edge">
+        <h4>Samsung s25 edge</h4>
+        <p class="price">1400 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Samsung S25 edge', 1400)">Acheter</a>
+      </div>
+      <div class="product-card ">
+        <img src="image/Slim Case Compatible with Samsung Galaxy Z Flip 3, Premium Thin Transparent Hard PC with Non-Slip.jpeg" alt="Samsung Z Flip 3">
+        <h4>Samsung Z Flip 3</h4>
+        <p class="price">800 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Samsung Z Flip 3', 800)">Acheter</a>
+      </div>
+     <div class="product-card Samsung">
+        <img src="image/Samsung galaxy fold 4.jpeg" alt="Samsung Fold 4">
+        <h4>Samsung Z Fold 4</h4>
+        <p class="price">900 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Samsung Z Fold 4', 900)">Acheter</a>
+      </div>
+      <div class="product-card Samsung">
+        <img src="image/Galaxy Z Fold 5, Z Flip 5, and Tab S9 series leaks official renders.jpeg" alt="Samsung z Fold 5">
+        <h4>Samsung Z Fold 5</h4>
+        <p class="price">1000 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Samsung Z Fold 5', 1000)">Acheter</a>
+      </div>
+       <div class="product-card Samsung">
+        <img src="image/Amazon_com_ Samsung Galaxy Note 10+, 256GB, Aura Glow Silver - Fully Unlocked (Renewed) _ Cell Phones & Accessories.jpeg" alt="Samsung note 10">
+        <h4>Samsung note 10</h4>
+        <p class="price">450 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Samsung note 10', 450)">Acheter</a>
+      </div>
+      <div class="product-card Samsung">
+        <img src="image/Gamme Galaxy S _ Smartphones Neufs & Sans Abonnement _ Samsung FR.jpeg" alt="Samsung S25 edge">
+        <h4>Samsung note 20</h4>
+        <p class="price">850 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Samsung note 20', 850)">Acheter</a>
+      </div>
+    </div>
+
+    <!-- Redmi -->
+    <div class="product-column">
+      <h3>Redmi</h3>
+      <div class="product-card">
+        <img src="image/download (6).jpeg" alt="Redmi Note 12 pro">
+        <h4>Redmi Note 12 pro</h4>
+        <p class="price">500 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Redmi Note 12 pro', 500)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/Smartphone Celular Xiaomi Redmi 14c 256gb 8gb RAM 128gb 4gb Dual Sim 50MP Global 14 c Lançamento.jpeg" alt="Redmi Note 14c">
+        <h4>Redmi Note 14c</h4>
+        <p class="price">400 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Redmi Note 14c', 400)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/Smartphone Xiaomi Redmi Note 14 Midnight Black (Preto) 8GB RAM 256GB ROM.jpeg" alt="Redmi Note 14">
+        <h4>Redmi Note 14</h4>
+        <p class="price">380 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Redmi Note 14', 380)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/Celular Xiaomi Redmi 10 (2022) _ Shopee Brasil.jpeg" alt="Redmi Note 10">
+        <h4>Redmi Note 10</h4>
+        <p class="price">180 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Redmi Note 10', 180)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/Xiaomi Redmi Note 12.jpeg" alt="Redmi Note 12">
+        <h4>Redmi Note 12</h4>
+        <p class="price">350 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Redmi Note 12', 350)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/Redmi Turbo 4.jpeg" alt="Redmi tubo 4">
+        <h4>Redmi turbo 4</h4>
+        <p class="price">400 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Redmi turo 4', 400)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/https___spottelefon_com web sitemiz üzerinden tüm türkiye ye toptan ve perakende cihaz tedarikcisiyiz.jpeg" alt="Redmi Note 13 5G">
+        <h4>Redmi Note 13 5G</h4>
+        <p class="price">550 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Redmi Note 13 5G', 550)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/download (14).jpeg" alt="Redmi Note 12 pro">
+        <h4>Redmi Note 12 pro</h4>
+        <p class="price">500 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Redmi Note 12 pro', 500)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/Redmi Note 14 Pro 4G global - 256gb_8gb.jpeg" alt="Redmi Note 14 pro">
+        <h4>Redmi Note 14 pro</h4>
+        <p class="price">700 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Redmi Note 14 pro', 700)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/download (14).jpeg" alt="Redmi  13">
+        <h4>Redmi 13</h4>
+        <p class="price">300 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Redmi 13', 300)">Acheter</a>
+      </div>
+        <div class="product-card">
+        <img src="image/RedMi 9A.jpeg" alt="Redmi A9">
+        <h4>Redmi A9</h4>
+        <p class="price">150 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Redmi A9', 150)">Acheter</a>
+      </div>
+    </div>
+
+    <!-- Autres -->
+    <div class="product-column">
+      <h3>Autres</h3>
+      <div class="product-card">
+        <img src="image/For Tecno Camon 40 Pro 4G 40Pro CM6 CM5 Camon40 Camon40Pro 2025 Smartphone Phone Protective Back.jpeg" alt="Tecno Canon 40">
+        <h4>Tecno Canon 40</h4>
+        <p class="price">400 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Tecno Canon 40', 400)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/Huawei P60 Pro Roroco white.jpeg" alt="Huawei P60">
+        <h4>Huawei P60</h4>
+        <p class="price">400 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Huawei P60', 400)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/Huawei's Tri-Folding Smartphone Expands to Tablet Size 🤓.jpeg" alt="Huawei tri folding">
+        <h4>Huawei tri folding</h4>
+        <p class="price">600 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Huawei tri folding', 600)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/download (4).jpeg" alt="google pixe 10">
+        <h4>Google pixel 10</h4>
+        <p class="price">800 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Google pixel 10', 800)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/Sony Xperia 1 VI.jpeg" alt="Sony Xperia 1VI">
+        <h4>Sony Xperia 1VI</h4>
+        <p class="price">700 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Sony Xperia 1VI', 700)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/VIVO T3x New.jpeg" alt="Vivo T3x">
+        <h4>Vivo T3x</h4>
+        <p class="price">700 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Vivo T3x', 700)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/ZTE nubia Red Magic 9S Pro.jpeg" alt="ZTE nubia red magic">
+        <h4>ZTE nubia red magic</h4>
+        <p class="price">600 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('ZTE nubia red magic', 600)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/Vivo Y36 5G_ What I found In Vivo Y36 5G.jpeg" alt="Vivo Y36">
+        <h4>Vivo Y36</h4>
+        <p class="price">400 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Vivo Y36', 400)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/Oppo A3 Pro.jpeg" alt="Oppo A3 Pro">
+        <h4>Oppo A3 Pro</h4>
+        <p class="price">350 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Oppo A3 Pro', 350)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/UNBOXED  Google Pixel 8pro 256GB.jpeg" alt="Google Pixel 8pro">
+        <h4>Google Pixel 8pro</h4>
+        <p class="price">400 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Google Pixel 8pro', 400)">Acheter</a>
+      </div>
+    </div>
+
+  </div>
+</main>
+<footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>contacte</h3>
+                <p>Email: contact@xxlfourniture.com</p>
+                <p>Phone: +509 4626 4966</p>
+            </div>
+            <div class="footer-section">
+                <h3>Reseaux sociaux</h3>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer-section">
+                <h3>mode de paiement</h3>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fas fa-money-bill-wave"></i> (Cash)
+                    <i class="fas fa-mobile-alt"></i> (Mobile Money)
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 XXL Fourniture. Confidentialite.</p>
+    </footer>
+
+ <script>
+  function addToCart(name, price) {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.push({ name, price });
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartCount();
+    alert(name + " a été ajouté au panier !");
+  }
+
+  function updateCartCount() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    document.getElementById('cart-count').textContent = cart.length;
+  }
+
+  window.onload = updateCartCount;
+</script>
+
+</body>
+</html>

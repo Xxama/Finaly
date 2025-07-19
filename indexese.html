@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Smartphones - XXL Fourniture</title>
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .product-section {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
+
+    .product-column {
+      flex: 1;
+      min-width: 250px;
+      background-color: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-column h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .product-card {
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      padding: 10px;
+      background: #fff;
+      transition: transform 0.2s;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .price {
+      font-weight: bold;
+      color: green;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: purple;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+     header {
+      background: #2e1457;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+footer {
+    background: #2e1457;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 1rem;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    margin-bottom: 0.5rem;
+    color: #e74c3c;
+}
+
+.footer-section a {
+    color: white;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #e74c3c;
+}
+
+.payment-methods i {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+.copyright {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #bdc3c7;
+}
+  </style>
+</head>
+<body>
+      <header>
+    <h1>Accessoires_section.</h1>
+    <nav>
+      <a href="index55.html">🏠 Accueil</a>
+      <a href="phone.html">📱Smartphones</a>
+      <a href="ordi.html">🖥️Ordinateur</a>
+      <a href="laptop.html">💻Laptop</a>
+      <a href="index57.html">🛒 panier(<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+<main>
+  <div class="product-section">
+    
+    <!-- iPhone -->
+    <div class="product-column">
+      <h3>Clavier</h3>
+      <div class="product-card">
+        <img src="image/download (1).jpg" alt="clavier">
+        <h4>Clavier</h4>
+        <p class="price">200$</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('clavier', 200)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/download (2).jpg" alt="clavier">
+        <h4>Clavier</h4>
+        <p class="price">300 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Clavier', 300)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/download.jpg" alt=" ">
+        <h4>Clavier</h4>
+        <p class="price">200 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Clavier', 200)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/Clavier de jeu EWEADN GX810 avec fil - Rétro-éclairage LED, 104 touches grand format silencieux, clavier ergonomique noir, avec bouton rotatif, pour ordinateur de bureau et ordinateur portable, fournitures et ac.jpg" alt="Clavier">
+        <h4>Clavier</h4>
+        <p class="price">300 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Clavier', 300)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/Clavier d'ordinateur portable isolé à boutons noirs pour ordinateur numérique _ Vecteur Premium.jpg" alt="Clavier">
+        <h4>Clavier</h4>
+        <p class="price">100 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Clavier', 100)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/Logitech K400 Plus Clavier Sans Fil Touch TV Avec Contrôle Média et Pavé Tactile, Clavier Francais AZERTY - Noir.jpg" alt="Clavier">
+        <h4>Clavier</h4>
+        <p class="price">100 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Clavier', 100)">Acheter</a>
+        </div>
+    </div>
+
+    <!-- -->
+    <div class="product-column">
+      <h3>Chaise de bureau</h3>
+      <div class="product-card">
+        <img src="image/AutoFull C3 Gaming Chair Computer Chair with Ergonomic Wingless Cushion PU Leather Racing Style PC.jpg" alt="Chaise">
+        <h4>Chaise</h4>
+        <p class="price">300 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Chaise', 300)">Acheter</a>
+      </div>
+       <div class="product-card ">
+        <img src="image/Chaise De Bureau - Chaise Gaming Fauteuil Gamer Ergonomique Chaise Gamer Cuir.jpg" alt="Chaise">
+        <h4>Chaise </h4>
+        <p class="price">250 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Chaise ', 250)">Acheter</a>
+      </div>
+      <div class="product-card ">
+        <img src="image/Esta não é apenas uma cadeira_ É o trono da sua jornada gamer_.jpg" alt="Chaise">
+        <h4>Chaise</h4>
+        <p class="price">300 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Chaise', 300)">Acheter</a>
+      </div>
+      <div class="product-card ">
+        <img src="image/Gaming Chair with Massage and LED Lights Ergonomic Video Game Chairs with Footrest High Back Reclining Computer Chair with Adjustable Lumbar Support White and Black.jpg">
+        <h4>Chaise</h4>
+        <p class="price">200 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Chaise', 200)">Acheter</a>
+      </div>
+      <div class="product-card ">
+        <img src="image/Holiday Gaming Wonderland_ Christmas 2024.jpg" alt="Chaise">
+        <h4>Chaise</h4>
+        <p class="price">400 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Chaise', 400)">Acheter</a>
+      </div>
+    </div>
+
+    <!-- Souris -->
+    <div class="product-column">
+      <h3>Souris</h3>
+      <div class="product-card">
+        <img src="image/tests et avis sur la High Tech - crazy-geek_fr.jpg" alt="Souris">
+        <h4>Souris</h4>
+        <p class="price">500 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Souris', 500)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/Batman Mouse.jpg" alt="Souris">
+        <h4>Souris</h4>
+        <p class="price">400 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Souris', 400)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/Black Panther's Mouse.jpg" alt="Souris">
+        <h4>Souris</h4>
+        <p class="price">90 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Souris', 90)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/_Elite Precision_ Ultra Custom Wireless Mouse_.jpg" alt="Souris">
+        <h4>Souris</h4>
+        <p class="price">80 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Souris', 80)">Acheter</a>
+      </div>
+       <div class="product-card">
+        <img src="image/5 Best Silent Gaming Mouse In 2025_ Buyer's Guide Included.jpg" alt="Souris">
+        <h4>Souris</h4>
+        <p class="price">50 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Souris', 50)">Acheter</a>
+      </div>
+    </div>
+
+    <!-- Autres -->
+    <div class="product-column">
+      <h3>Casque</h3>
+      <div class="product-card">
+        <img src="image/download (3).jpg" alt="Casque">
+        <h4>Casque</h4>
+        <p class="price">50 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Casque', 50)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/download (4).jpg" alt="Casque">
+        <h4>Casque</h4>
+        <p class="price">40 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Casque', 40)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/Logitech G – 733 LIGHTSPEED – Casque de jeu sans fil avec bandeau de suspension, LIGHTSYNC RGB, Blue Voice Mic Techonolgy et PRO-G Audio, noir.jpg" alt="Casque">
+        <h4>Casque</h4>
+        <p class="price">60 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Casque', 60)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/Logitech G733 K_DA Casque Gaming Sans Fil LIGHTSPEED, LIGHTSYNC RVB, Micro avec Blue VO!CE, T___.jpg" alt="Casque">
+        <h4>Casque</h4>
+        <p class="price">80 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Casque', 80)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/JBL Tune 720BT, casque audio sans fil, léger et confortable, Bluetooth 5_3, autonomie jusqu'à 76 h, charge rapide, son JBL Pure Bass, noir.jpg" alt="Casque">
+        <h4>Casque</h4>
+        <p class="price">80 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Casque', 80)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/Mine h.jpg" alt="Casque">
+        <h4>Casque</h4>
+        <p class="price">100 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Casque', 80)">Acheter</a>
+      </div>
+    </div>
+
+  </div>
+</main>
+<footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>contacte</h3>
+                <p>Email: contact@xxlfourniture.com</p>
+                <p>Phone: +509 4626 4966</p>
+            </div>
+            <div class="footer-section">
+                <h3>Reseaux sociaux</h3>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer-section">
+                <h3>mode de paiement</h3>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fas fa-money-bill-wave"></i> (Cash)
+                    <i class="fas fa-mobile-alt"></i> (Mobile Money)
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 XXL Fourniture. Confidentialite.</p>
+    </footer>
+
+ <script>
+  function addToCart(name, price) {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.push({ name, price });
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartCount();
+    alert(name + " a été ajouté au panier !");
+  }
+
+  function updateCartCount() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    document.getElementById('cart-count').textContent = cart.length;
+  }
+
+  window.onload = updateCartCount;
+</script>
+
+</body>
+</html>

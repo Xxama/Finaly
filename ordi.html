@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Smartphones - XXL Fourniture.</title>
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .product-section {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
+
+    .product-column {
+      flex: 1;
+      min-width: 250px;
+      background-color: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-column h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .product-card {
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      padding: 10px;
+      background: #fff;
+      transition: transform 0.2s;
+    }
+
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .price {
+      font-weight: bold;
+      color: green;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: purple;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+     header {
+      background: #2e1457;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+footer {
+    background: #2e1457;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 1rem;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    margin-bottom: 0.5rem;
+    color: #e74c3c;
+}
+
+.footer-section a {
+    color: white;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #e74c3c;
+}
+
+.payment-methods i {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+.copyright {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #bdc3c7;
+}
+  </style>
+</head>
+<body>
+      <header>
+    <h1>🖥️Ordinateur de bureau_section.</h1>
+    <nav>
+      <a href="index55.html">🏠 Accueil</a>
+      <a href="phone.html">📱 Smartphones</a>
+      <a href="indexese.html">accessoires</a>
+      <a href="laptop.html">💻Laptop</a>
+      <a href="index57.html">🛒 panier(<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+<main>
+  <div class="product-section">
+    
+    <!-- -->
+    <div class="product-column">
+      <h3>🖥️Ordinateur</h3>
+      <div class="product-card">
+        <img src="image/Nvidia geforce RTX 4080 White.jpeg" alt="gamming pc">
+        <h4> Nvidia geforce RTX 4080</h4>
+        <p class="price">4090 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('gamming pc', 890)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/Dell Alienware Area-51 Desktop (2025).jpg" alt="gamming pc">
+        <h4> Dell Alienware Area-51 </h4>
+        <p class="price">3090 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('gamming pc', 3090)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/SUPER DEAL X - RTX 4060_4060 Ti - Ryzen & Intel 13_14th Gen PC.jpeg" alt="gamming pc">
+        <h4>  RTX 4060_4060</h4>
+        <p class="price">4000 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('gamming pc', 890)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/Zalman S5 ATX Mid-Tower Gaming PC Case, 2 x 120mm Fans Included (1x RGB), Thick 4mm Tempered Glass Side Panel, AIO Water Cooler Bracket, Front Panel RGB Strip (White).jpg" alt="gamming pc">
+        <h4>Zalman S5 ATX Mid-Tower Gaming PC</h4>
+        <p class="price">3490 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('gamming pc', 890)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/ROG Strix G15CK Gaming Desktop PC, Intel Core i7.jpg" alt="gamming pc">
+        <h4> ROG Strix G15CK Gaming Desktop PCgamming pc</h4>
+        <p class="price">4000 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('gamming pc', 890)">Acheter</a>
+      </div>
+      <!-- Ajoute 9 autres iPhones ici -->
+    </div>
+
+    <!-- top ordi -->
+    <div class="product-column">
+      <h3>Top ordi</h3>
+      <div class="product-card">
+        <img src="image/PC Gaming Rig with RTX 4090 Aero.jpeg" alt="Samsung S22">
+        <h4>PC Gaming Rig with RTX 4090 Aero</h4>
+        <p class="price">2900 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Samsung S22', 3900)">Acheter</a>
+      </div>
+       <div class="product-card ">
+        <img src="image/PC Gamer Ryzen 9 RX7900XTX.jpeg" alt="PC Gamer Ryzen 9 RX7900XTX">
+        <h4>PC Gamer Ryzen 9 RX7900XTX</h4>
+        <p class="price">3000 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('PC Gamer Ryzen 9 RX7900XTX ', 3000)">Acheter</a>
+      </div>
+      <div class="product-card ">
+        <img src="image/PC Gamer Platin AMD Ryzen.jpg" alt="Gamer Platin AMD Ryzen">
+        <h4>Gamer Platin AMD Ryzen</h4>
+        <p class="price">3200 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Gamer Platin AMD Ryzen', 3200)">Acheter</a>
+      </div>
+      <div class="product-card ">
+        <img src="image/PC Gamer Intel Core i7 16GB RAM Nvidia Geforce GTX 1650 4GB GDDR6 HD 3TB EasyPC ATK.jpg" alt="ordi ultra">
+        <h4>ordi ultra</h4>
+        <p class="price">3500 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('ordi ultra', 3500)">Acheter</a>
+      </div>
+      <div class="product-card ">
+        <img src="image/Pc gamer blanc Rtx 4090 + corsair.jpeg" alt="Pc gamer blanc Rtx 4090">
+        <h4>Pc gamer blanc Rtx 4090</h4>
+        <p class="price">3400 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('Pc gamer blanc Rtx 4090', 1400)">Acheter</a>
+      </div>
+     
+    </div>
+
+    <!-- ordinateur gamming basic -->
+    <div class="product-column">
+      <h3>ordinateur gamming basic</h3>
+      <div class="product-card">
+        <img src="image/CORSAIR Spec-Omega RGB Mid-Tower Tempered Glass Gaming Case Review.jpg" alt="Redmi Note 11">
+        <h4>CORSAIR Spec-Omega RGB Mid-Tower ordinateur gamming basic</h4>
+        <p class="price">3000 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('gaming', 200)">Acheter</a>
+      </div>
+      <div class="product-card">
+        <img src="image/Corsair Carbide SPEC-Omega RGB Mid-Tower ATX PC Gaming Case, Tempered Glass - White.jpg" alt="Redmi Note 11">
+        <h4>Corsair Carbide SPEC-Omega</h4>
+        <p class="price">3200 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('gaming', 200)">Acheter</a>
+     </div>
+     <div class="product-card">
+        <img src="image/jonsbo PC mech case.jpeg" alt="Redmi Note 11">
+        <h4>jonsbo PC</h4>
+        <p class="price">4000 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('gaming', 4000)">Acheter</a>
+     </div>
+     <div class="product-card">
+        <img src="image/PC Gamer Ryzen 9 RX7900XTX.jpeg" alt="Redmi Note 11">
+        <h4>PC Gamer Ryzen 9 RX7900XTX</h4>
+        <p class="price">4000 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('gaming', 4000)">Acheter</a>
+     </div>
+     <div class="product-card">
+        <img src="image/Ordinateur de Bureau AWD-IT Gaming - Processeur Intel 11400F • NVIDIA RTX 3050 8 Go • RAM 16 ___.jpg" alt="Redmi Note 11">
+        <h4>AWD-IT Gaming </h4>
+        <p class="price">3500 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('gaming', 3500)">Acheter</a>
+     </div>
+      <div class="product-card">
+        <img src="image/Arctic Aura_ A Frozen Gaming Beast.jpeg" alt="Redmi Note 11">
+        <h4>Arctic Aura_ A Frozen</h4>
+        <p class="price">4300 $</p>
+        <a href="index57.html" class="buy-btn" onclick="addToCart('gaming', 4300)">Acheter</a>
+     </div>
+    </div>
+  </div>
+</main>
+<footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>contacte</h3>
+                <p>Email: contact@xxlfourniture.com</p>
+                <p>Phone: +509 4626 4966</p>
+            </div>
+            <div class="footer-section">
+                <h3>Reseaux sociaux</h3>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer-section">
+                <h3>mode de paiement</h3>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fas fa-money-bill-wave"></i> (Cash)
+                    <i class="fas fa-mobile-alt"></i> (Mobile Money)
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 XXL Fourniture. Confidentialite.</p>
+    </footer>
+
+ <script>
+  function addToCart(name, price) {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.push({ name, price });
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartCount();
+    alert(name + " a été ajouté au panier !");
+  }
+
+  function updateCartCount() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    document.getElementById('cart-count').textContent = cart.length;
+  }
+
+  window.onload = updateCartCount;
+</script>
+
+</body>
+</html>

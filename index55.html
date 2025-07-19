@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XXL_Fourniture</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style55.css" />
+   <link rel="stylesheet"href="css/bootstrap.min.css">
+   <script src="https://kit.fontawesome.com/c3a07af110.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+      .produit-item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.produit-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.produit-titre {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  height: 45px; /* Pour garder tous les titres à la même hauteur */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+  .btn-catalogue {
+      background-color: #2e1457;
+      color: #ffffff;
+      font-size: 0.8rem;
+      padding: 6px 12px;
+      width: 80%;
+      border: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-catalogue:hover {
+      background-color: #45297a;
+      color: #fff;
+    }
+    </style>
+</head>
+<body>
+     <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="ordi.html">🖥️ Ordinateur</a></li>
+        <li><a href="phone.html">📱 Smartphone</a></li>
+        <li><a href="laptop.html">💻 Laptop</a></li>
+        <li><a href="indexese.html">accessoires</a></li>
+        <li><a href="avis.html">Avis</a></li>
+        <li><a href="pannier.html"><i class="fa-solid fa-basket-shopping"></i></a></li>
+        <li><a href="index2.html"><i class="fa-solid fa-user"></i></a></li>
+      </ul>
+      <input type="text" id="searchBar" placeholder="Rechercher" class="search" />
+      <a href="#" class="contact-btn">Contactez-nous</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="presentation">
+      <img src="image/imaj1.png" alt="Logo XXL Fourniture" />
+      <div class="texte">
+        <h2>Bonnes affaires garanties,<br>tous les jours 💻</h2>
+        <p>Découvrez nos offres exclusives sur les dernières nouveautés Tech.</p>
+        <a href="#" class="btn-help">Help</a>
+      </div>
+    </section>
+     <section class="categories">
+        <h2>Catégories populaires</h2>
+     <div class="container my-5">
+  <div id="carouselUniform" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row text-center">
+          <div class="col-md-3 produit-item">
+            <img src="image/download (8).jpeg" class="produit-img" alt="📱Smartphone">
+            <h5 class="produit-titre">📱Smartphone</h5>
+            <a href="phone.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/MacBook Pro 14” M3 Pro Unboxing (Space Black).jpeg" class="produit-img" alt="💻Laptop">
+            <h5 class="produit-titre">💻Laptop</h5>
+            <a href="laptop.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/Dell Alienware Area-51 Desktop (2025).jpg" class="produit-img" alt="🖥️Ordinateur">
+            <h5 class="produit-titre">🖥️Ordinateur</h5>
+            <a href="ordi.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/Holiday Gaming Wonderland_ Christmas 2024.jpg" class="produit-img" alt="accessoires">
+            <h5 class="produit-titre">accessoires</h5>
+            <a href="indexese.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row text-center">
+          <div class="col-md-3 produit-item">
+            <img src="image/Samsung S25 Ultra.jpeg" class="produit-img" alt="📱Smartphone">
+            <h5 class="produit-titre">📱Smartphone</h5>
+            <a href="phone.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/Samsung Galaxy Book4 Pro 360 Laptop Under $2500!!.jpeg" class="produit-img" alt="💻Laptop">
+            <h5 class="produit-titre">💻Laptop</h5>
+            <a href="laptop.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/Mini MegxSnow 3_0 - RTX 4060_4060 Ti x Intel & AMD PC.jpeg" class="produit-img" alt="🖥️Ordinateur">
+            <h5 class="produit-titre">🖥️Ordinateur</h5>
+            <a href="ordi.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/Black Panther's Mouse.jpg" class="produit-img" alt="accessoires">
+            <h5 class="produit-titre">accessoires</h5>
+            <a href="indexese.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="row text-center">
+          <div class="col-md-3 produit-item">
+            <img src="image/download (3).jpeg" class="produit-img" alt="📱Smartphone">
+            <h5 class="produit-titre">📱Smartphone</h5>
+            <a href="phone.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/Laptop ASUS VivoBook 15X X1503ZA-L1236W 15_6_ OLED i5-12500H 16GB RAM 512GB SSD Windows 11 Home - niskie ceny i opinie w Media Expert.jpeg" class="produit-img" alt="💻Laptop">
+            <h5 class="produit-titre">💻Laptop</h5>
+            <a href="laptop.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/Zalman S5 ATX Mid-Tower Gaming PC Case, 2 x 120mm Fans Included (1x RGB), Thick 4mm Tempered Glass Side Panel, AIO Water Cooler Bracket, Front Panel RGB Strip (White).jpg" class="produit-img" alt="🖥️Ordinateur">
+            <h5 class="produit-titre">🖥️Ordinateur</h5>
+            <a href="ordi.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/download (4).jpg" class="produit-img" alt="accessoires">
+            <h5 class="produit-titre">accessoires</h5>
+            <a href="indexese.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="carousel-item">
+        <div class="row text-center">
+          <div class="col-md-3 produit-item">
+            <img src="image/Sony Xperia 1 VI.jpeg" class="produit-img" alt="📱Smartphone">
+            <h5 class="produit-titre">📱Smartphone</h5>
+            <a href="phone.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/Lenovo Thinkpad X1 Carbon Gen 6, core i7, 8th generation, 512ssd, 16gb ram, 2K screen display, backlit keyboard KSH_63,0000 CONTACT US_ 0714215210.jpeg" class="produit-img" alt="💻Laptop">
+            <h5 class="produit-titre">💻Laptop</h5>
+            <a href="laptop.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/YEYIAN ODACHI Gaming PC Desktop, AMD Ryzen 9 7950X3D, RTX 4090, 32GB DDR5 6000MHz RAM, 2TB M_2 SSD + 2TB HDD, 360mm Liquid Cooler VR Ready Computer, 1000W Platinum PSU, X670 Motherboard, Win 11 Home.jpg" class="produit-img" alt="🖥️Ordinateur">
+            <h5 class="produit-titre">🖥️Ordinateur</h5>
+            <a href="ordi.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/Rk68 Keyboard.jpg" class="produit-img" alt="accessoires">
+            <h5 class="produit-titre">accessoires</h5>
+            <a href="indexese.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="carousel-item">
+        <div class="row text-center">
+          <div class="col-md-3 produit-item">
+            <img src="image/VIVO T3x New.jpeg" class="produit-img" alt="📱Smartphone">
+            <h5 class="produit-titre">📱Smartphone</h5>
+            <a href="phone.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/HP Omen 16.jpeg" class="produit-img" alt="💻Laptop">
+            <h5 class="produit-titre">💻Laptop</h5>
+            <a href="laptop.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/ROG Strix G15CK Gaming Desktop PC, Intel Core i7.jpg" class="produit-img" alt="🖥️Ordinateur">
+            <h5 class="produit-titre">🖥️Ordinateur</h5>
+            <a href="ordi.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+          <div class="col-md-3 produit-item">
+            <img src="image/Pink LED, white keycaps ^__^.jpg" class="produit-img" alt="accessoires">
+            <h5 class="produit-titre">accessoires</h5>
+            <a href="indexese.html" class="btn btn-catalogue btn-sm">Consulter catalogue</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Contrôles -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselUniform" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselUniform" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+
+    </section>
+    <section class="products" id="products">
+        <h2>Nos nouveautés</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <a href="product-detail.html?id=1">
+                    <img src="image/Apple iPhone 16 Pro Max (512 GB) - Titânio-preto - Distribuidor Autorizado - R$ 12_399.jpeg" alt="iPhone 16 pro max">
+                    <h3>iPhone 16 pro max</h3>
+                    <p class="price">$1500</p>
+                </a>
+                <button class="add-to-cart" data-id="1">Ajoute</button>
+            </div>
+            <div class="product-card">
+                <a href="product-detail.html?id=2">
+                    <img src="image/Samsung Galaxy S25 Edge, with its launch just a few weeks away, has obtained FCC certification__🖥️QHD+ 120hz Dynamic Amoled Display _💪SD 8 Elite for Galaxy _💾12GB RAM _ 256_512GB Storage _📸200MP Main Camera.jpeg" alt="Samsung S25 edge">
+                    <h3>Samsung S25 edge</h3>
+                    <p class="price">$1200</p>
+                </a>
+                <button class="add-to-cart" data-id="2">Ajoute</button>
+            </div>
+        </div>
+    </section>
+  </main>
+   <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>contact</h3>
+                <p>Email: contact@xxlfourniture.com</p>
+                <p>Phone: +509 4626 4966</p>
+            </div>
+            <div class="footer-section">
+                <h3>Reseaux sociaux</h3>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer-section">
+                <h3>mode de paiement</h3>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fas fa-money-bill-wave"></i> (Cash)
+                    <i class="fas fa-mobile-alt"></i> (Mobile Money)
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 XXL Fourniture. Confidentialite.</p>
+    </footer>
+    <script>
+    const searchInput = document.getElementById("searchBar");
+    const produits = document.querySelectorAll("#liste-produits .produit-item");
+
+    searchInput.addEventListener("keyup", function () {
+      const valeur = searchInput.value.toLowerCase();
+
+      produits.forEach(produit => {
+        const nom = produit.dataset.nom.toLowerCase();
+        const titre = produit.querySelector(".produit-titre").textContent.toLowerCase();
+
+        if (nom.includes(valeur) || titre.includes(valeur)) {
+          produit.style.display = "block";
+        } else {
+          produit.style.display = "none";
+        }
+      });
+    });
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
